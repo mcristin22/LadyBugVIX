@@ -1,6 +1,6 @@
 FROM node:20-alpine
 
-# Installa git  (necessario su Alpine)
+# Installa  git  (necessario su Alpine)
 RUN apk add --no-cache git
 
 WORKDIR /app
